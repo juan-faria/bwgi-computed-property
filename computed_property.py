@@ -1,4 +1,4 @@
-from functools import wraps, update_wrapper
+from functools import wraps
 
 class computed_property(object):
 
