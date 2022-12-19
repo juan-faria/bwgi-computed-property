@@ -1,5 +1,4 @@
-# BWGI
-## Computed Property
+# BWGI - Computed Property
 
 Este é um decorator chamado computed_property, análogo ao property. Este decorator aceita múltiplos atributos dos quais ele depende, e cachea o valor da property enquanto o valor desses atributos permanecer inalterado.
 
