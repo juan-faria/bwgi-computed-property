@@ -1,3 +1,4 @@
+import sys
 from functools import wraps
 
 class computed_property(object):
@@ -56,3 +57,5 @@ class computed_property(object):
     def deleter(self, deleter):
         self.__deleter = deleter
         return self
+
+sys.modules[__name__] = computed_property
